@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Grape Nuts', cursive;
+	font-size: 20px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+	display: block;
+	height: 190px;
+	width: 140px;
+}
+h3,
+h2,
+h1 {
+	display: flex;
+	justify-content: center;
+	color: burlywood;
+	font-size: 28px;
+	font-weight: 300;
+	margin: 10px;
+}
+h2,
+h1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+h1 {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 45px;
+}
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+section {
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+	height: 400px;
+}
+button {
+	padding: 0px 20px;
+}
