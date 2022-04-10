@@ -20,6 +20,8 @@ img {
 	display: block;
 	height: 190px;
 	width: 140px;
+	opacity:1;
+	transition: opacity 0.3s ease-in 0.4s;
 }
 h3,
 h2,
